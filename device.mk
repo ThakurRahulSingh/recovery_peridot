@@ -73,10 +73,3 @@ PRODUCT_PACKAGES += android.hardware.fastboot@1.1-impl-mock
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-      $(DEVICE_PATH)
-
-# OEM otacerts
-PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(DEVICE_PATH)/security/otacert
