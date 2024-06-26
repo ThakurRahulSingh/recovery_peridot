@@ -5,5 +5,5 @@
 //
 
 soong_namespace {
-    imports: ["system/extras/bootctl"],
+    imports: ["hardware/qcom-caf/bootctrl"],
 }
