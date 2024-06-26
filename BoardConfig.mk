@@ -109,11 +109,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
-<<<<<<< HEAD
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
-
->>>>>>> parent of 9c9a39d (peridot: Include recovery.fstab)
-
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
