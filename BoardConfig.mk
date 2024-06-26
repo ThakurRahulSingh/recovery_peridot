@@ -55,9 +55,6 @@ TW_EXTRA_LANGUAGES      := true
 TW_EXCLUDE_APEX         := true
 TW_INCLUDE_FASTBOOTD    := true
 
-# device-specific fstab
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
-
 # Kernel
 BOARD_KERNEL_PAGESIZE         := 4096
 TARGET_KERNEL_ARCH            := arm64
