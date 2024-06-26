@@ -35,6 +35,11 @@ PRODUCT_TARGET_VNDK_VERSION := 34
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# qcom decryption
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
       $(DEVICE_PATH)
