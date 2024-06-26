@@ -101,14 +101,18 @@ BOARD_USES_VENDOR_DLKMIMAGE := true
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
-# Recovery
-BOARD_HAS_LARGE_FILESYSTEM := true
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
-
 # Extras
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# Recovery
+BOARD_HAS_LARGE_FILESYSTEM := true
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+
+<<<<<<< HEAD
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
+
+>>>>>>> parent of 9c9a39d (peridot: Include recovery.fstab)
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
