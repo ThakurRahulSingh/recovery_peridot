@@ -20,7 +20,7 @@ PRODUCT_MODEL := RedmiTurbo3
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := peridot, peridotin
+TARGET_OTA_ASSERT_DEVICE := peridot
 
 # Theme
 TW_STATUS_ICONS_ALIGN := center
