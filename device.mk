@@ -61,4 +61,7 @@ PRODUCT_PACKAGES += \
     qcom_decrypt \
     qcom_decrypt_fbe
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+      $(DEVICE_PATH)
 
